@@ -1,0 +1,6 @@
+message = ("I dunno")
+print (message)
+msg = ("short msg")
+print (msg)
+msg2 = ("all messages on")
+print (msg2)

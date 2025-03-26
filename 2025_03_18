@@ -1,0 +1,146 @@
+# x = 3
+
+# if x < 5:
+#     print("Mensie ako 5")
+
+# for x in range(2, 10):
+#     print(x)
+
+
+# x = 3
+# print("start")
+# for x in range(10, 100, 10):
+#     print(x)
+
+# print("end")
+
+# names = ["Pete", "Jana", "Lenka"]
+
+# names[1]
+
+# print(names[1])
+
+# names = ["Pete", "Jana", "Lenka", "Rob"]	
+
+# for name in names:
+#     print(name)
+
+# x = 5
+
+# while x < 10:
+#     x = x + 1
+#     print("x is still less than 10, x = ", x) # prints the value of x
+# print("") # prints an empty line
+
+# x = 5
+
+# while x < 10:
+#     x = x + 1
+#     print("x is still less than 10, x = ", x) # prints the value of x
+# print("") # prints an empty line
+
+# names = ["Pete", "Jana", "Lenka"]
+
+# for name in names:
+#     if "L" in name:
+#         break
+#     print(name)
+
+# x = 0
+
+# while x < 10:
+#     if x == 7:
+#         break
+#     x = x + 1
+
+#     print(x)
+
+# numbers = [1,10,12,55,60]
+
+# for n in numbers:
+#     if n % 2 == 0:
+#         continue
+#     print(n)
+#     new_n = n *10
+#     print(new_n)
+
+# names = ["Pete", "Jana", "Lenka"]
+
+# for name in names:
+#     for n in name:
+#         if n == "a": # skip all the a's
+#             continue
+#         print(n)
+#     print(name)
+
+#     names = ["Pete", "Jana", "Lenka"]
+
+# for name in names:
+#     for n in name:
+#         if n == "a": # skip all the a's
+#             continue
+#         print(n, end=" ") # print all the letters on the same line
+#     print(name)
+
+# chess_board = [["A1", "A2"], ["B1", "B2"], ["C1", "C2"]]
+# for board in chess_board:
+#     chess_board.append(["D"])
+#     for b in board:
+#         print(b)
+
+
+# numbers = [1, 2, 3] #10 20 30
+# new_numbers = []
+# for n in numbers:
+#         new_numbers.append(n * 10)
+#         print(new_numbers)
+
+# exit()
+
+# random_string_list = ["Ahoj", "Hello", "Hola", "Ciao", "Bonjour"]
+# new_list = [s for s in random_string_list if len(s) > 3]
+# print(new_list)
+# print(random_string_list is new_list)
+
+# random_string_list = ["Ahoj", "Hello", "Hola", "Ciao", "Bonjour"]
+# new_list = [s + "....." for s in random_string_list if len(s) > 3]
+# print(new_list)
+
+
+
+# numbers = [1, 2, 3, 4, 5]
+
+# for n in numbers:
+#         print(n)
+#         if n == 10:
+#                 print("Breaking the loop", 10)
+#                 break
+#         print(n)
+# else:
+#         print("10 was not found in the list")
+
+# numbers = [10, 22, 33, 34, 5, 2]
+
+# for idx, value in enumerate(numbers):
+#         print(f"Index is: {idx}")
+#         print(f"Value is: {value}")
+
+
+# d = {"name": "Rob", "age": 30, "city": "Bratislava"}
+# for k, v in d.items():
+#         print(f"Key is: {k}")
+#         print(f"Value is: {v}")
+
+# a_list = [1, 2, 3, 4, 5]
+# b_list = ["a", "b", "c", "d", "e"]
+
+# for a_val, b_val in zip(a_list, b_list):
+#         print(f"a_val is: {a_val}")
+#         print(f"b_val is: {b_val}")
+
+# for i in range(10,0,-1): # prints backwards from 10 to 1, 10 values but not including 0
+#         print(i)
+        
+i_list = ["a", "b", "c", "d", "e"]
+for i in reversed(i_list): # prints the list in reverse order
+        print(i)
